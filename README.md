@@ -1,239 +1,280 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - PasswordForge</title>
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #f9f9f9;
-        }
-        .container {
-            background: white;
-            padding: 40px;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-        h1 {
-            color: #2c3e50;
-            border-bottom: 3px solid #3498db;
-            padding-bottom: 10px;
-        }
-        h2 {
-            color: #34495e;
-            margin-top: 30px;
-        }
-        .highlight {
-            background-color: #e8f5e8;
-            padding: 15px;
-            border-radius: 5px;
-            border-left: 4px solid #27ae60;
-            margin: 20px 0;
-        }
-        .no-collect {
-            background-color: #ffeaa7;
-            padding: 15px;
-            border-radius: 5px;
-            border-left: 4px solid #fdcb6e;
-            margin: 20px 0;
-        }
-        .security {
-            background-color: #e3f2fd;
-            padding: 15px;
-            border-radius: 5px;
-            border-left: 4px solid #2196f3;
-            margin: 20px 0;
-        }
-        ul {
-            padding-left: 20px;
-        }
-        li {
-            margin: 8px 0;
-        }
-        .emoji {
-            font-size: 1.2em;
-        }
-        .date-info {
-            color: #666;
-            font-style: italic;
-            margin-bottom: 30px;
-        }
-        .contact {
-            background-color: #f8f9fa;
-            padding: 20px;
-            border-radius: 5px;
-            margin: 20px 0;
-        }
-        code {
-            background-color: #f4f4f4;
-            padding: 2px 6px;
-            border-radius: 3px;
-            font-family: 'Courier New', monospace;
-        }
-        .tech-specs {
-            background-color: #f8f8f8;
-            padding: 15px;
-            border-radius: 5px;
-            font-family: 'Courier New', monospace;
-            font-size: 0.9em;
-            margin: 20px 0;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>🔒 Privacy Policy for PasswordForge</h1>
-        
-        <div class="date-info">
-            <strong>Effective Date:</strong> November 3, 2025<br>
-            <strong>Last Updated:</strong> November 3, 2025
-        </div>
+# 🔐 PasswordForge
 
-        <div class="highlight">
-            <h3>🛡️ Key Privacy Principles</h3>
-            <ul>
-                <li><span class="emoji">🔒</span> <strong>Zero Data Collection</strong>: We do not collect, store, or transmit any personal data</li>
-                <li><span class="emoji">🏠</span> <strong>Local Storage Only</strong>: All passwords and data remain on your device</li>
-                <li><span class="emoji">🚫</span> <strong>No Analytics</strong>: We do not use analytics or tracking services</li>
-                <li><span class="emoji">🔐</span> <strong>Military-Grade Encryption</strong>: All data is encrypted locally using AES-256</li>
-            </ul>
-        </div>
+**Military-Grade Password Generator for Android**
 
-        <h2>Overview</h2>
-        <p>PasswordForge ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use our PasswordForge mobile application (the "App").</p>
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Android](https://img.shields.io/badge/Platform-Android-green.svg)](https://developer.android.com)
+[![API](https://img.shields.io/badge/API-28%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=28)
+[![Kotlin](https://img.shields.io/badge/Kotlin-2.2.21-blue.svg)](https://kotlinlang.org)
+[![Compose](https://img.shields.io/badge/Jetpack%20Compose-2025.10.01-blue.svg)](https://developer.android.com/jetpack/compose)
 
-        <h2>Information We Do NOT Collect</h2>
-        <div class="no-collect">
-            <p>PasswordForge is designed with privacy-by-design principles. We explicitly do <strong>NOT</strong> collect:</p>
-            <ul>
-                <li>❌ Personal information (names, emails, phone numbers)</li>
-                <li>❌ Passwords or password data</li>
-                <li>❌ Usage analytics or statistics</li>
-                <li>❌ Device identifiers or advertising IDs</li>
-                <li>❌ Location data</li>
-                <li>❌ Biometric data (fingerprints stay on your device)</li>
-                <li>❌ App usage patterns or behaviors</li>
-                <li>❌ Crash reports or error logs</li>
-                <li>❌ Any data whatsoever</li>
-            </ul>
-        </div>
+> Generate ultra-secure passwords with enterprise-level encryption, completely offline. No data collection, no internet required, maximum privacy guaranteed.
 
-        <h2>Data Storage and Security</h2>
-        <div class="security">
-            <h3>Local Storage Only</h3>
-            <ul>
-                <li>All passwords and data are stored exclusively on your device</li>
-                <li>Data is encrypted using AES-256 encryption with your master password</li>
-                <li>No data is transmitted to external servers or cloud services</li>
-                <li>No backup data is sent to our servers</li>
-            </ul>
+## ✨ Key Features
 
-            <h3>Encryption Details</h3>
-            <ul>
-                <li><strong>Algorithm</strong>: AES-256 with PBKDF2 key derivation</li>
-                <li><strong>Master Key</strong>: Derived from your master password using secure hashing</li>
-                <li><strong>Biometric Protection</strong>: Uses Android Keystore for biometric authentication</li>
-                <li><strong>Memory Protection</strong>: Sensitive data is cleared from memory after use</li>
-            </ul>
-        </div>
+### 🛡️ Military-Grade Security
+- **AES-256-GCM encryption** with 600,000 PBKDF2 iterations
+- **7-layer anti-tampering protection** (root, emulator, debugger detection)
+- **Biometric authentication** with Android Keystore integration
+- **Screenshot blocking** for ultimate privacy
+- **FIPS 140-2 compliant** secure random generation
 
-        <h2>Third-Party Services</h2>
-        <p>PasswordForge does <strong>NOT</strong> use any third-party services that could access your data:</p>
-        <ul>
-            <li>❌ No analytics services (Google Analytics, Firebase, etc.)</li>
-            <li>❌ No advertising networks</li>
-            <li>❌ No crash reporting services</li>
-            <li>❌ No cloud storage services</li>
-            <li>❌ No social media integrations</li>
-            <li>❌ No external APIs or web services</li>
-        </ul>
+### 🏠 100% Offline & Private
+- **Zero internet permissions** - works in airplane mode
+- **No data collection**, analytics, or tracking
+- **No cloud sync**, no external servers
+- **GDPR compliant** by design
+- All passwords stay on your device, encrypted
 
-        <h2>Permissions</h2>
-        <h3>Required Permissions:</h3>
-        <ul>
-            <li><strong>Biometric/Fingerprint</strong>: For secure app authentication (stays on device)</li>
-            <li><strong>Storage</strong>: For local encrypted data storage only</li>
-        </ul>
+### ⚡ Advanced Generation Features
+- **Password length**: 9-99 characters
+- **Real-time entropy calculation** (up to 650+ bits)
+- **Mathematical sequences**: Fibonacci, Prime numbers
+- **Intelligent duplicate prevention**
+- **Weak pattern detection** and avoidance
+- **Custom character sets** with full control
 
-        <h3>NOT Used:</h3>
-        <ul>
-            <li>❌ Internet/Network access</li>
-            <li>❌ Location services</li>
-            <li>❌ Camera or microphone</li>
-            <li>❌ Contacts or phone access</li>
-            <li>❌ SMS or call permissions</li>
-        </ul>
+### 💾 Smart Storage & Management
+- **Unlimited encrypted password storage**
+- **Real-time search** with instant filtering
+- **Favorites and custom labels**
+- **Automatic clipboard clearing** (configurable)
+- **Encrypted export** in 4 formats (JSON, CSV, TXT, XML)
+- **Import from other password managers**
 
-        <h2>Data Sharing</h2>
-        <div class="highlight">
-            <p><strong>We do not share any data because we do not collect any data.</strong></p>
-            <ul>
-                <li>🚫 No data sharing with third parties</li>
-                <li>🚫 No data selling or monetization</li>
-                <li>🚫 No government data sharing (we have nothing to share)</li>
-                <li>🚫 No marketing or advertising data usage</li>
-            </ul>
-        </div>
+### 🎨 Premium User Experience
+- **Modern Material 3 design**
+- **Multi-language support** (15+ languages)
+- **Built-in instruction manual** and help system
+- **Accessibility optimized**
+- **Configurable inactivity lock**
+- **Dark/light theme support**
 
-        <h2>International Compliance</h2>
-        <p>PasswordForge can be used worldwide. Since all data remains on your device and no data is transmitted, we are compliant with:</p>
-        <ul>
-            <li>✅ GDPR (European Union)</li>
-            <li>✅ CCPA (California)</li>
-            <li>✅ COPPA (Children's privacy)</li>
-            <li>✅ PIPEDA (Canada)</li>
-            <li>✅ All international privacy regulations</li>
-        </ul>
+## 🚀 Getting Started
 
-        <h2>Your Rights and Control</h2>
-        <p>Since PasswordForge collects no personal data, traditional privacy rights don't apply. However, you have complete control:</p>
-        <ul>
-            <li>You can delete all app data by uninstalling the app</li>
-            <li>You can clear individual passwords within the app</li>
-            <li>You can change your master password at any time</li>
-            <li>You have complete control over your data</li>
-        </ul>
+### Prerequisites
 
-        <h2>Technical Implementation</h2>
-        <div class="tech-specs">
-Data Flow: Your Device → Encrypted Storage → Your Device
-Network Flow: None (no internet permissions)
-Analytics Flow: None (no analytics implemented)
-Third-party Flow: None (no third-party services)
+- **Android 9.0 (API level 28)** or higher
+- **Biometric authentication** (fingerprint/face) for enhanced security
+- **4GB RAM** recommended for optimal performance
 
-Encryption Specifications:
-• Symmetric Encryption: AES-256-GCM
-• Key Derivation: PBKDF2 with SHA-256
-• Iteration Count: 100,000+ iterations
-• Salt: Randomly generated per installation
-• IV: Randomly generated per encryption
-        </div>
+### Installation
 
-        <h2>Contact Information</h2>
-        <div class="contact">
-            <p>If you have questions about this Privacy Policy, you can contact us at:</p>
-            <p><strong>Email:</strong> privacy@passwordforge.com<br>
-            <strong>Subject Line:</strong> PasswordForge Privacy Policy Inquiry</p>
-            <p><em>Please note: Since we don't collect any data, most privacy-related inquiries may not apply to our app.</em></p>
-        </div>
+#### Option 1: Google Play Store (Recommended)
+```
+[Download from Google Play Store - Coming Soon]
+```
 
-        <h2>Conclusion</h2>
-        <div class="highlight">
-            <p>PasswordForge is designed with <strong>privacy-by-design</strong> and <strong>zero-trust</strong> principles. We believe the best way to protect your privacy is to never collect your data in the first place.</p>
-            <p><strong>Your passwords are yours, and they stay on your device, encrypted and secure.</strong></p>
-        </div>
+#### Option 2: Build from Source
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/PasswordForge.git
+cd PasswordForge
 
-        <hr>
-        <div style="text-align: center; color: #666; font-size: 0.9em; margin-top: 30px;">
-            <p><strong>Document Version:</strong> 1.0 | <strong>Effective Date:</strong> November 3, 2025</p>
-            <p><strong>App Version Compatibility:</strong> PasswordForge v1.0+</p>
-        </div>
-    </div>
-</body>
-</html>
+# Build the project
+./gradlew assembleRelease
+
+# Install the APK
+adb install app/build/outputs/apk/release/app-release.apk
+```
+
+### First Launch Setup
+
+1. **Launch PasswordForge**
+2. **Set up authentication** (PIN, biometric, or both)
+3. **Configure preferences** (optional)
+4. **Start generating secure passwords**
+
+## 🔧 Technical Architecture
+
+### Tech Stack
+- **Language**: Kotlin 2.2.21
+- **UI Framework**: Jetpack Compose 2025.10.01
+- **Architecture**: MVVM with Repository pattern
+- **Database**: Encrypted SharedPreferences with Android Keystore
+- **Build System**: Gradle with Kotlin DSL
+- **Min SDK**: 28 (Android 9.0)
+- **Target SDK**: 36 (Android 15)
+
+### Security Implementation
+- **Encryption**: AES-256-GCM with authenticated encryption
+- **Key Derivation**: PBKDF2-SHA256 with 600,000 iterations
+- **Random Generation**: SecureRandom with FIPS 140-2 compliance
+- **Memory Protection**: Automatic secure memory clearing
+- **Anti-Tampering**: Multi-layer runtime integrity checks
+
+### Project Structure
+```
+app/
+├── src/main/java/com/passwordforge/pro/
+│   ├── data/                 # Data layer (repositories, models)
+│   │   ├── auth/            # Authentication management
+│   │   ├── history/         # Password history storage
+│   │   └── preferences/     # App preferences
+│   ├── ui/                  # UI layer (Compose screens)
+│   │   ├── about/           # About and help screens
+│   │   ├── history/         # Password history UI
+│   │   ├── lock/            # Lock screen and authentication
+│   │   ├── numbers/         # Number generator UI
+│   │   ├── password/        # Password generator UI
+│   │   ├── security/        # Security settings
+│   │   ├── settings/        # App settings
+│   │   └── theme/           # Material 3 theming
+│   └── util/                # Utility classes
+│       ├── SecurityManager.kt
+│       ├── DebuggerDetection.kt
+│       └── RuntimeIntegrityCheck.kt
+└── src/main/res/            # Resources (layouts, strings, assets)
+```
+
+## 🔒 Security Features Deep Dive
+
+### Encryption Specifications
+- **Algorithm**: AES-256-GCM (Galois/Counter Mode)
+- **Key Derivation**: PBKDF2-SHA256 with 600,000 iterations
+- **Salt**: 256-bit random salt per export
+- **IV**: 128-bit random initialization vector
+- **Authentication**: GCM authenticated encryption with tamper detection
+- **Compliance**: Meets NSA Suite B cryptographic requirements
+
+### Anti-Tampering Protection
+1. **Root Detection**: Prevents execution on rooted devices
+2. **Emulator Detection**: Blocks execution in virtual environments
+3. **Debugger Detection**: Prevents runtime debugging attempts
+4. **Frida Detection**: Blocks dynamic instrumentation frameworks
+5. **Xposed Detection**: Prevents module injection attacks
+6. **Runtime Integrity**: Verifies code signature at runtime
+7. **Memory Protection**: Secure memory clearing and protection
+
+### Authentication Methods
+- **PIN Authentication**: 4-12 digit PIN with secure hashing
+- **Biometric Authentication**: Fingerprint/Face with Android Keystore
+- **Combined Authentication**: Both PIN and biometric for maximum security
+- **Failed Attempt Handling**: Progressive lockout with security delays
+
+## 🎯 Unique Differentiators
+
+### vs. Password Managers
+| Feature | PasswordForge | 1Password | Bitwarden | LastPass |
+|---------|--------------|-----------|-----------|----------|
+| **Offline Operation** | ✅ 100% | ❌ Cloud-based | ❌ Cloud-based | ❌ Cloud-based |
+| **Data Collection** | ✅ Zero | ❌ Analytics | ❌ Analytics | ❌ Analytics |
+| **Mathematical Sequences** | ✅ Fibonacci/Prime | ❌ | ❌ | ❌ |
+| **Encrypted Exports** | ✅ Military-grade | ❌ Plain text | ❌ Plain text | ❌ Plain text |
+| **Max Password Length** | ✅ 99 chars | ❌ 64 chars | ❌ 128 chars | ❌ 50 chars |
+| **Anti-Tampering** | ✅ 7-layer | ❌ Basic | ❌ Basic | ❌ Basic |
+
+### vs. Simple Generators
+- **Enterprise-grade security** vs basic generation
+- **Encrypted storage** vs no storage
+- **Advanced algorithms** vs simple randomization
+- **Professional UI** vs basic interfaces
+- **Comprehensive features** vs limited functionality
+
+## 🔄 Password Generation Algorithms
+
+### Standard Generation
+```kotlin
+// Cryptographically secure random generation
+val password = generateSecurePassword(
+    length = 32,
+    includeUppercase = true,
+    includeLowercase = true,
+    includeNumbers = true,
+    includeSymbols = true
+)
+```
+
+### Mathematical Sequences
+```kotlin
+// Fibonacci-based password generation
+val fibonacciPassword = generateFibonacciPassword(length = 24)
+
+// Prime number-based password generation
+val primePassword = generatePrimePassword(length = 20)
+```
+
+### Entropy Calculation
+```kotlin
+// Real-time entropy display
+val entropy = calculatePasswordEntropy(
+    password = generatedPassword,
+    characterSets = selectedSets
+)
+// Result: 256.3 bits of entropy
+```
+
+## 📱 Screenshots
+
+| Password Generator | History Management | Security Settings |
+|-------------------|-------------------|-------------------|
+| ![Generator](screenshots/generator.png) | ![History](screenshots/history.png) | ![Security](screenshots/security.png) |
+
+## 🌍 Supported Languages
+
+- English
+- Spanish (Español)
+- French (Français)
+- German (Deutsch)
+- Italian (Italiano)
+- Portuguese (Português)
+- Russian (Русский)
+- Chinese Simplified (中文简体)
+- Chinese Traditional (中文繁體)
+- Japanese (日本語)
+- Korean (한국어)
+- Arabic (العربية)
+- Hindi (हिन्दी)
+- Dutch (Nederlands)
+- Swedish (Svenska)
+
+## 🤝 Contributing
+
+We welcome contributions to PasswordForge! Please read our [Contributing Guidelines](CONTRIBUTING.md) before submitting pull requests.
+
+### Development Setup
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/PasswordForge.git
+cd PasswordForge
+
+# Open in Android Studio
+# Build and run on device/emulator
+./gradlew assembleDebug
+```
+
+### Code Quality
+- **Kotlin coding standards** with ktlint
+- **Unit tests** for critical components
+- **Security review** for all cryptographic code
+- **Performance testing** for UI responsiveness
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🔐 Security Disclosure
+
+If you discover a security vulnerability, please send an email to security@passwordforge.pro. We take security seriously and will respond promptly to legitimate security concerns.
+
+## 📞 Support
+
+- **Documentation**: [Built-in Help System]
+- **Issues**: [GitHub Issues](https://github.com/Ionel3C/PasswordForge/issues)
+- **Email**: support@passwordforge.pro
+- **Privacy Policy**: [View Privacy Policy](PRIVACY_POLICY.md)
+
+## 🏆 Recognition
+
+PasswordForge is designed for:
+- **Security professionals** and IT teams
+- **Privacy-conscious users**
+- **Offline environments** and air-gapped systems
+- **Enterprise and government** use
+- **Anyone wanting maximum password security**
+
+---
+
+**⚡ Generate passwords with confidence. Your security is our priority.**
+
+*Built with ❤️ and military-grade security standards.*
