@@ -1,0 +1,2 @@
+# passwordforge-privacy
+privacy policy
